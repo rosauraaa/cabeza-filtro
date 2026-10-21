@@ -4,7 +4,7 @@ Filtro de **Realidad Aumentada** para la cámara frontal: al abrir la página de
 
 > Actividad 2 · Realidad Virtual y Aumentada: Filtro facial interactivo con máscara animada reactiva a gestos.
 
-**▶ Probar:** https://rosauraaa.github.io/cabeza-cubo-filtro/
+**▶ Probar:** https://rosauraaa.github.io/cabeza-filtro/
 **🎥 Video demo:** _(agregar enlace al video de 30–60 s)_
 
 | Normal | Con gestos (guiño, cejas arriba, boca abierta) |
@@ -65,7 +65,7 @@ docs/                      vistas previas y artículo
 
 ## Instalación y ejecución
 
-1. **En el teléfono:** abre https://rosauraaa.github.io/cabeza-cubo-filtro/ y permite la cámara. Toca la pantalla una vez para activar el sonido (los navegadores lo exigen).
+1. **En el teléfono:** abre https://rosauraaa.github.io/cabeza-filtro/ y permite la cámara. Toca la pantalla una vez para activar el sonido (los navegadores lo exigen).
 2. **En la compu:**
    ```bash
    npx serve .      # o: python -m http.server 8000
