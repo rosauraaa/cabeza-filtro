@@ -1,0 +1,6 @@
+node_modules/
+.playwright-mcp/
+*.blend1
+__pycache__/
+.DS_Store
+Thumbs.db
