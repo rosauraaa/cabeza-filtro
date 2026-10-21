@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Cabeza Cubo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+      "@mediapipe/tasks-vision": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.14/vision_bundle.mjs"
+    }
+  }
+  </script>
+</head>
+<body>
+  <video id="cam" playsinline muted></video>
+  <canvas id="gl"></canvas>
+
+  <header>
+    <span class="badge">🟨 CABEZA CUBO</span>
+    <button id="sound" class="badge">🔇 Toca para sonido</button>
+  </header>
+
+  <div id="hint" hidden>🙂 Muestra tu cara a la cámara</div>
+
+  <footer id="chips">
+    <span class="chip" id="chip-mouth">😮 Abre la boca</span>
+    <span class="chip" id="chip-brows">🤨 Sube las cejas</span>
+    <span class="chip" id="chip-wink">😉 Guiña un ojo</span>
+  </footer>
+
+  <section id="loading">
+    <div class="spinner"></div>
+    <p id="status">Abriendo cámara…</p>
+  </section>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
