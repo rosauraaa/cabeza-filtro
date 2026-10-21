@@ -27,7 +27,7 @@ Cada gesto se activa con un umbral (por ejemplo, boca abierta > 50 %) y una paus
 **Resultado.** Un filtro que abre directo en la cámara, cubre toda la cara, sigue los giros y responde de forma clara a tres gestos. Lo probé en *(teléfono 1)* y *(teléfono 2)* con varias personas, con lentes y con distinta iluminación.
 
 🎥 *(video o GIF aquí)*
-😃 Pruébalo: https://rosaurarosauraaa.github.io/cabeza-cubo-filtro/
-💻 Código: https://github.com/Rosaurarosauraaa/cabeza-cubo-filtro
+😃 Pruébalo: https://rosauraaa.github.io/cabeza-cubo-filtro/
+💻 Código: https://github.com/rosauraaa/cabeza-cubo-filtro
 
 #RealidadAumentada #FaceTracking #MediaPipe #Blender #threejs #WebAR
